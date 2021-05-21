@@ -1,3 +1,8 @@
+# 1. Install mplayer command line (via Brew, Macports, or APT)
+# 2. Add the following aliases to ~/.profile
+# 3. Type `source ~/.profile`
+# 3. Type `news` or `current` to listen in your terminal
+
 alias current="mplayer -playlist http://minnesota.publicradio.org/tools/play/streams/the_current.pls" # The Current
 alias classical="mplayer -playlist http://minnesota.publicradio.org/tools/play/streams/classical.pls" # Classical MPR
 alias localcurrent="mplayer -playlist http://minnesota.publicradio.org/tools/play/streams/local.pls" # Local Current
